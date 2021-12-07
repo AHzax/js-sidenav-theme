@@ -1,0 +1,142 @@
+@media(max-width: 768px) {
+    .header_bg {
+    background-position: center;
+
+    }
+    .menu {
+        display: none;
+    }
+    .logo {
+        width: 140px;
+    }
+    .master {
+        padding: 0;
+        display: inline;
+    }
+    .header_content {
+        width: 80%;
+    }
+    .about_content {
+        width: 80%;
+        font-size: 0.938rem;
+    }
+    .card_2 {
+       display: none;
+    }
+    .card {
+        width: 48%;
+        left: 1%;
+    }
+    .card_1 {
+        width: 48%;
+        left: 50%;
+    }
+    .purchase_content {
+        width: 80%;
+    }
+    .purchase_heading {
+        font-size: 2rem;
+    }
+    .feature_img {
+        display: none;
+    }
+    .feature_cards {
+        width: 80%;
+    }
+    .feature_btn {
+        display: none;
+    }
+    .footer_logo {
+        width: 100px;
+    }
+    .footer_copyright {
+        font-size: 1.125rem;
+        left: 25%;
+    }
+}
+@media(max-width: 480px) {
+    .header_content {
+        width: 90%;
+        font-size: 1.25rem;
+    }
+    .header_para {
+        letter-spacing: 1px;
+        font-size: 1rem;
+    }
+    .about_content {
+        width: 90%;
+        font-size: 0.813rem;
+        text-align: left;
+    }
+    .characters {
+        height: 190vh;
+    }
+    .character_heading {
+        position: relative;
+        margin-bottom: 5%;
+        left: 55%;
+        width: 80%;
+    }
+    .card,
+    .card_1,
+    .card_2 {
+        position: relative;
+        width: 90%;
+        left: 5%;
+        margin-bottom: 10%;
+    }
+    .card_2 {
+        display: block;
+    }
+    .card_para {
+        font-size: 0.9rem;
+    }
+    .purchase_content {
+        width: 90%;
+    }
+    .features {
+        height: 185vh;
+    }
+    .feature_heading {
+        position: relative;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .feature_1,
+    .feature_2,
+    .feature_3,
+    .feature_4 {
+        position: relative;
+        width: 100%;
+        left: 0;
+        top: 0;
+        margin-bottom: 5%;
+    }
+    .top_btn {
+        display: none;
+    }
+    .footer_copyright {
+        font-size: 0.938rem;
+        left: 30%;
+    }
+}
+@media(max-width: 360px) {
+    .header_heading {
+        font-size: 2.2rem;
+        margin-bottom: 5%;
+    }
+    .header_para {
+        margin-bottom: 5%;
+    }
+    .about_para {
+        text-align: left;
+        margin-bottom: 0%;
+    }
+    .about_btn {
+        font-size: 0.7rem;
+    }
+    .card_para {
+        width: 95%;
+        font-size: 0.9rem;
+    }
+}
